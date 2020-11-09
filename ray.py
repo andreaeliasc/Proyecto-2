@@ -154,65 +154,65 @@ r.light = Light(
 
 r.scene = [
   Cube(V3(0,-2,-2),3,glass),
-#   Cube(V3(-1, 1, -3), 0.5 , bloqueCastle ),
-#   Cube(V3(-1, 1.5, -3), 0.5 , bloqueCastle ),
+  Cube(V3(-1, 1, -3), 0.5 , bloqueCastle ),
+  Cube(V3(-1, 1.5, -3), 0.5 , bloqueCastle ),
 
-# #Interior
-#   Cube(V3(-1, 1, -3), 0.5 , bloqueCastle ),
-#   Cube(V3(1, 1, -3), 0.5 , bloqueCastleA ),
-#   Cube(V3(1, 1.5, -3), 0.5 , bloqueCastle ),
+#Interior
+  Cube(V3(-1, 1, -3), 0.5 , bloqueCastle ),
+  Cube(V3(1, 1, -3), 0.5 , bloqueCastleA ),
+  Cube(V3(1, 1.5, -3), 0.5 , bloqueCastle ),
 
-# #Peldaños del centro
-#   Cube(V3(0, -0.5, -3), 0.5 , cemento ),
-#   Cube(V3(0, 0, -3), 0.5 , cemento ),
-#   Cube(V3(0, 0.5, -3), 0.5 , mirror ),
-#   Cube(V3(0, 1, -3), 0.5 , bloqueCastle2 ),
+#Peldaños del centro
+  Cube(V3(0, -0.5, -3), 0.5 , cemento ),
+  Cube(V3(0, 0, -3), 0.5 , cemento ),
+  Cube(V3(0, 0.5, -3), 0.5 , mirror ),
+  Cube(V3(0, 1, -3), 0.5 , bloqueCastle2 ),
 
-#   Cube(V3(0.5, -0.5, -3), 0.5 , interior ),
-#   Cube(V3(0.5, 0, -3), 0.5 , interior ),
-#   Cube(V3(0.5, 0.5, -3), 0.5 , interior ),
-#   Cube(V3(0.5, 1, -3), 0.5 , interior ),
+  Cube(V3(0.5, -0.5, -3), 0.5 , interior ),
+  Cube(V3(0.5, 0, -3), 0.5 , interior ),
+  Cube(V3(0.5, 0.5, -3), 0.5 , interior ),
+  Cube(V3(0.5, 1, -3), 0.5 , interior ),
 
-#   Cube(V3(1, -0.5, -3), 0.5 , concreto ),
-#   Cube(V3(1, 0, -3), 0.5 , castillo ),
-#   Cube(V3(1, 0.5, -3), 0.5 , concreto ),
-#   Cube(V3(1, 1, -3), 0.5 , castillo ),
+  Cube(V3(1, -0.5, -3), 0.5 , concreto ),
+  Cube(V3(1, 0, -3), 0.5 , castillo ),
+  Cube(V3(1, 0.5, -3), 0.5 , concreto ),
+  Cube(V3(1, 1, -3), 0.5 , castillo ),
 
-#   Cube(V3(-0.5, -0.5, -3), 0.5 , interior ),
-#   Cube(V3(-0.5, 0, -3), 0.5 , interior ),
-#   Cube(V3(-0.5, 0.5, -3), 0.5 , interior ),
-#   Cube(V3(-0.5, 1, -3), 0.5 , interior ),
+  Cube(V3(-0.5, -0.5, -3), 0.5 , interior ),
+  Cube(V3(-0.5, 0, -3), 0.5 , interior ),
+  Cube(V3(-0.5, 0.5, -3), 0.5 , interior ),
+  Cube(V3(-0.5, 1, -3), 0.5 , interior ),
 
-#   Cube(V3(-1, -0.5, -3), 0.5 , concreto ),
-#   Cube(V3(-1, 0, -3), 0.5 , castillo ),
-#   Cube(V3(-1, 0.5, -3), 0.5 , concreto ),
-#   Cube(V3(-1, 1, -3), 0.5 , castillo ),
+  Cube(V3(-1, -0.5, -3), 0.5 , concreto ),
+  Cube(V3(-1, 0, -3), 0.5 , castillo ),
+  Cube(V3(-1, 0.5, -3), 0.5 , concreto ),
+  Cube(V3(-1, 1, -3), 0.5 , castillo ),
 
-# #techo
-#   Cube(V3(-0.5, 1, -3), 0.5 , bloqueCastle2 ),
-#   Cube(V3(0, 1, -3.5), 0.5 , bloqueCastleA ) ,
-#   Cube(V3(0.5, 1, -3), 0.5 , bloqueCastle ) ,
-#   Cube(V3(0, 1.5, -3), 0.5 , bloqueCastleA ) ,
+#techo
+  Cube(V3(-0.5, 1, -3), 0.5 , bloqueCastle2 ),
+  Cube(V3(0, 1, -3.5), 0.5 , bloqueCastleA ) ,
+  Cube(V3(0.5, 1, -3), 0.5 , bloqueCastle ) ,
+  Cube(V3(0, 1.5, -3), 0.5 , bloqueCastleA ) ,
 
 #Lights
   
   
-  #Sphere(V3(0, -0.5, -1.5), 0.25 , lights) ,
-  #Sphere(V3(0, 1, -4), 0.3 , lights) ,
+  # Sphere(V3(0, -0.5, -1.5), 0.25 , lights) ,
+  # Sphere(V3(0, 1, -4), 0.3 , lights) ,
 
 #barco
-# Cube(V3(-0.1,-0.5,-1.7), 0.1, madera),
-# Cube(V3(0,-0.5,-1.7), 0.1, madera),
-# Cube(V3(-0.1,-0.4,-1.7), 0.1, madera),
-# Cube(V3(0,-0.4,-1.7), 0.1, madera),
-# Cube(V3(-0.2,-0.4,-1.7), 0.1, madera),
-# Cube(V3(0.1,-0.4,-1.7), 0.1, madera),
-# Cube(V3(-0.1,-0.3,-1.7), 0.1, madera),
-# Cube(V3(0,-0.3,-1.7), 0.1, madera),
-# Cube(V3(-0.2,-0.3,-1.7), 0.1, madera),
-# Cube(V3(0.1,-0.3,-1.7), 0.1, madera),
-# Cube(V3(-0.3,-0.3,-1.7), 0.1, madera),
-# Cube(V3(0.2,-0.3,-1.7), 0.1, madera),
+Cube(V3(-0.1,-0.5,-1.7), 0.1, madera),
+Cube(V3(0,-0.5,-1.7), 0.1, madera),
+Cube(V3(-0.1,-0.4,-1.7), 0.1, madera),
+Cube(V3(0,-0.4,-1.7), 0.1, madera),
+Cube(V3(-0.2,-0.4,-1.7), 0.1, madera),
+Cube(V3(0.1,-0.4,-1.7), 0.1, madera),
+Cube(V3(-0.1,-0.3,-1.7), 0.1, madera),
+Cube(V3(0,-0.3,-1.7), 0.1, madera),
+Cube(V3(-0.2,-0.3,-1.7), 0.1, madera),
+Cube(V3(0.1,-0.3,-1.7), 0.1, madera),
+Cube(V3(-0.3,-0.3,-1.7), 0.1, madera),
+Cube(V3(0.2,-0.3,-1.7), 0.1, madera),
 
 #people
 Cube(V3(-0.15,-0.2,-1.7), 0.1, Rapunzel),
@@ -221,7 +221,9 @@ Cube(V3(0.1,-0.2,-1.7), 0.1, Fynn),
 #Heads
 Cube(V3(-0.15,-0.1,-1.7), 0.13, rubio),
 Cube(V3(-0.1,-0.12,-1.15), 0.02, rubio),
-Cube(V3(-0.1,-0.12175,-1.15), 0.0175, rubio),
+Cube(V3(-0.1,-0.13,-1.15), 0.0175, rubio),
+Cube(V3(-0.1,-0.14,-1.15), 0.0175, rubio),
+
 Cube(V3(0.1,-0.1,-1.7), 0.13, castaño),
 
 
