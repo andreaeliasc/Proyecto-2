@@ -1,6 +1,7 @@
 from lib import *
 from sphere import *
 from plane import *
+from Luces import *
 from math import pi, tan
 
 #from load import *
@@ -195,6 +196,10 @@ r.scene = [
   Cube(V3(0, 1.5, -3), 0.5 , bloqueCastleA ) ,
 
 #Lights
+  Luces(0.08, 0.2, V3(0, 0, -2), lights),
+  Luces(0.08, 0.2, V3(0.9, -0.5, -2), lights),
+  Luces(0.08, 0.2, V3(-0.9, -0.3, -2), lights),
+  #Luces(0.08, 0.2, V3(0.3, 1, -2), lights),
   
   
   # Sphere(V3(0, -0.5, -1.5), 0.25 , lights) ,
