@@ -59,18 +59,13 @@ class Cube(object):
     self.size = size
     self.material = material
     self.planes = []
-
     halfSize = size / 2
-
     self.planes.append(Plane(sum(position, V3(halfSize,0,0)), V3(1,0,0), material))
     self.planes.append(Plane(sum(position, V3(-halfSize,0,0)), V3(-1,0,0), material))
-
     self.planes.append(Plane(sum(position, V3(0,halfSize,0)), V3(0,1,0), material))
     self.planes.append(Plane(sum(position, V3(0,-halfSize,0)), V3(0,-1,0), material))
-
     self.planes.append(Plane(sum(position, V3(0,0,halfSize)), V3(0,0,1), material))
     self.planes.append(Plane(sum(position, V3(0,0,-halfSize)), V3(0,0,-1), material))
-
 
   def ray_intersect(self, origin, direction):
     epsilon = 0.001
@@ -97,7 +92,6 @@ class Cube(object):
 
     if intersect is None:
       return None
-
     return Intersect(
       distance = intersect.distance,
       point = intersect.point,
