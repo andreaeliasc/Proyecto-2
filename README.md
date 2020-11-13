@@ -1,2 +1,2 @@
 # Proyecto-2
-![Tangled](TangledLights.bmp)
+![Tangled](Imagen Referencia.jpg)
