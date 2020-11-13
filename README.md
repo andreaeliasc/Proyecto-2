@@ -1,2 +1,2 @@
 # Proyecto-2
-![Tangled](Imagen referencia.jpg)
+![Tangled](Imagen Referencia.jpg)
